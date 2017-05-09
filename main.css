@@ -1,0 +1,14 @@
+div {
+  background-color: #2D3037;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+div {
+  background: url(teste.png);
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
