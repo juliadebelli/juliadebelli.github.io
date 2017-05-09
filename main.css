@@ -1,7 +1,7 @@
-body {
+#textos {
+  font-size: 24px;
   font-family: 'Raleway';
-  font-size:48px;
-  color: #999999;
+  color: #C5454A;
 }
 
 .container {
@@ -18,9 +18,11 @@ body {
   padding-left: 2%;
   size: 50%;
   left: 0px;
+  text-align: left;
 }
 
 #imagem {
+  float: left;
   top: 0;
   right: 0;
   position: absolute;
@@ -36,24 +38,15 @@ body {
   flex: 0 0 50%;
 }
 
-#links {
-  align-items: center;
-  vertical-align: center;
-}
-
-footer {
-  position: absolute;
+#coisas ul li{
+  display: inline;
+  float: right;
   bottom: 0;
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 0;
+  position: absolute;
+  size: 50%;
+  left: 0;
 }
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
+#nothing {
+  size: 50%;
+  right: 0;
 }
