@@ -1,58 +1,31 @@
 body {
+  width: 100%;
+  background-color: #131826;
   font-family: 'Raleway';
   font-size:48px;
-  color: #999999;
+  color: #C43C4A;
+  text-align: center;
 }
 
-.container {
-  max-width: 100vw;
-  max-height: 100vh;
-  display: flex;
-  align-items: left;
+.container-fluid.full-width {
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-x: hidden;
 }
 
-#textos {
-  position: absolute;
-  align-items: flex-end;
-  padding-top: 2%;
-  padding-left: 2%;
-  size: 50%;
-  left: 0px;
-}
-
-#imagem {
-  top: 0;
-  right: 0;
-  position: absolute;
-  right: 0px;
-  min-height: 100%;
-  min-width: 512px;
-  width: 100%;
-  max-width: 50%;
-  max-height: 1000px;
-  height: auto;
-  position: fixed;
-  top: 0;
-  flex: 0 0 50%;
-}
-
-#links {
-  align-items: center;
-  vertical-align: center;
+img.img-clip {
+  height: 100%;
+  overflow-x: hidden;
 }
 
 footer {
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
 }
 
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
+ul#footer-links li {
+  display: inline;
 }
