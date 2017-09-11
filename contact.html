@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Julia de Belli UI/UX Designer</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway"
+   rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+      <ul id="sidebar">
+        <li id="juliatitle"><img src="logo.png"></li>
+        <li id="pages"><a href="index.html">Who am I</a></li>
+        <li id="pages"><a href="projects.html">Portfolio</a></li>
+        <li id="pages"><a href="resume.html">Resumé</a></li>
+        <li id="pages"><a href="contact.html" class="active">Contact</a></li>
+        <li><br></li>
+        <ul id="links">
+          <a href="https://www.linkedin.com/in/julia-de-belli-2945a6bb/"><img src="icon-linkedin.png"></a>
+          <a href="https://www.behance.net/juliadebelli"><img src="icon-behance.png"></a>
+          <a href="https://github.com/juliadebelli"><img src="icon-github.png"></a>
+        </ul>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">Your name</label>
+          <input type="text" id="fname" name="firstname" placeholder="What you want me to call you">
+          <label for="e-mail">Your e-mail</label>
+          <input type="text" id="email" name="lastname" placeholder="Don't worry, I won't send you any Christmas cards">
+          <label for="subject">Talk about your project</label>
+          <textarea id="subject" name="subject" placeholder="What can I help you with?"
+          style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  <footer>
+
+  </footer>
+</body>
+</html>
