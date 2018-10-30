@@ -1,52 +1,18 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
+<html>
 
-    <title>Julia de Belli</title>
-    <meta charset="utf-8"/>
-    <meta name="author" value="Julia de Belli"/>
-    <meta name="description" value="Julia de Belli is a UX designer based in Recife who mostly works with web and mobile interfaces.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Raleway:light">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
+function detectBrowser()
+{
+    var slashIndex = window.location.href.lastIndexOf("/");
+    var cropped = window.location.href.slice(0,slashIndex+1);
 
-  <body>
-      <div class="container-fluid full-width">
-        <div class="row">
-          <div id="textos" class="col-md-6">
-            <img src="marca-pessoal.png" height="100" width="100">
-            <h1>Hi, I'm Julia</h1>
-            <h5 style="padding-top:2%">I'm a 21 years-old UX designer based in Recife, Brazil</h5>
-            <h5 style="padding-top:2%">I mostly work with web and mobile interfaces</h5>
-            <h5 style="padding-top:2%">Above you can check things I've worked at and more info about me</h5>
-            <h5 style="padding-top:2%">Want to talk about what I can do for your project?</h5>
-            <a id="email" href="mailto:juliadebelli@gmail.com">Send me an e-mail :)</a>
+    window.location.replace(cropped + "assets/player/KeynoteDHTMLPlayer.html");
+}
 
-          </div>
+</script>
 
-          <div id="imagem" class="col-md-6">
-            <img src="foto.jpg" class="img-clip">
-          </div>
-        </div>
-      </div>
+<body bgcolor="black" onload="detectBrowser()">
+</body>
 
-    <footer>
-      <ul id="footer-links">
-        <li>
-          <a href="http://behance.net/juliadebelli"><img src="icon-behance.png" height="30"></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/julia-de-belli-2945a6bb/"><img src="icon-linkedin.png" height="30"></a>
-        </li>
-        <li>
-          <a href="http://github.com/juliadebelli"><img src="icon-github.png" height="30"></a>
-        </li>
-      </ul>
-    </footer>
-
-  </body>
 </html>
